@@ -1,11 +1,11 @@
-# devblog
+# Musk's Helllscape
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-    This is a blog where a user can create a username and post to the website. It is also possible to interact with other posts through comments.
+    This is a social media site where users can post their ideas into a feed for other users to comment and react or create their own post.
   
 ## Table of Contents
-- [Devblog](#devblog)
+- [Musk's Hellscape](#musk_s_hellscape)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Visuals](#visuals)
@@ -19,13 +19,15 @@
  
 ## Visuals
 
-![Dashboard Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Dashboard%20screenshot.png)
-![Home Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Home%20screenshot.png)
-![Login Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Login%20screenshot.png)
+![Dashboard Screenshot]
+
+![Home Screenshot]
+
+![Login Screenshot]
 
 ## Site
 
-    https://aqueous-ravine-32180.herokuapp.com/
+
 
 ## Installation
     N/A
