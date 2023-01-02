@@ -1,0 +1,37 @@
+<div class="category-cont">
+      <div class="tv-show" data-catid="1">
+        <a href="/categories/1"><h2>Tv Shows</h2></a>
+        <p class="post">
+        {{#each posts as |post| }}
+        {{{map_category post.id post.title post.body post.user_id post.user.username post.category_id 1 post.likes post.dislikes}}}
+        {{/each}}</p>
+    </div>
+    <div class="movies" data-catid="2">
+        <a href="/categories/2"><h2>Movies</h2></a>
+        <p class="post">{{#each posts as |post| }}
+        {{{map_category post.id post.title post.body post.user_id post.user.username post.category_id 2 post.likes post.dislikes}}}
+        {{/each}}</p>
+    </div>
+    <div class="music" data-catid="3">
+        <a href="/categories/3"><h2>Music</h2></a>
+        {{#each posts as |post| }}
+        {{{map_category post.id post.title post.body post.user_id post.user.username post.category_id 3 post.likes post.dislikes}}}
+        {{/each}}
+    </div>
+    <div class="sports" data-catid="4">
+        <a href="/categories/4"><h2>Sports</h2></a>
+        {{#each posts as |post| }}
+        {{{map_category post.id post.title post.body post.user_id post.user.username post.category_id 4 post.likes post.dislikes}}}
+        {{/each}}
+    </div>
+    <div class="books" data-catid="5">
+        <a href="/categories/5"><h2>Books</h2></a>
+        {{#each posts as |post| }}
+        {{{map_category post.id post.title post.body post.user_id post.user.username post.category_id 5 post.likes post.dislikes}}}
+        {{/each}}
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="/js/likes.js"></script>
+<script src="/js/dislikes.js"></script>
