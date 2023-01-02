@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="tv-show">
+        <div class="card-header">
+            <h2>{{category_name}}</h2>
+        </div>
+        <div class="card-body">
+            <div class="post-card-cont">
+                {{#each posts as |post|}}
+                    <div class="post-card">
+                        <a href="/post/{{post.id}}">
+                            <h5>{{post.title}}</h5>
+                            <p>{{post.body}}</p>
+                            <span>{{post.username}}</span>
+                            <span>{{format_date post.date_created}}</span>
+                            <div class="likes-cont">
+                                <span>{{likes}}</span><a id="add-like" data-post={{id}} data-count={{likes}} data-user={{user_id}}><i class="fa fa-thumbs-up"></i></a>
+                                <span>{{dislikes}}</span><a id="add-dislike" data-post={{id}} data-count={{dislikes}} data-user={{user_id}}><i class="fa fa-thumbs-down"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+{{!-- <script src="/js/newPost.js"></script> --}}
+<script src="/js/likes.js"></script>
+<script src="/js/dislikes.js"></script>
