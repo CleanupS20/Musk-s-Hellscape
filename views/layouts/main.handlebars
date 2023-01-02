@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Musk's Hellscape</title>
+</head>
+<body>
+    <header>
+        <h1>Musk's Hellscape</h1>
+        <nav class="nav">
+            <a class="link-item" href="/">Home</a>
+            <a class="link-item" href="/categories">Categories</a>
+            <a class="link-item" href="/dashboard">Dashboard</a>
+            {{#if logged_in}}
+            <a class="link-item" id="logout">Logout</a>
+            {{else}}
+            <a class="link-item" href="/login">Login</a>
+            <a class="link-item" href="/signup">Signup</a>
+            {{/if}}
+        </nav>
+        {{#if logged_in}}
+        <img src={{avatar_url}} alt="user avatar image">
+        {{/if}}
+    </header>
+    <!-- creates space between the nav bar and body -->
+    <div class="space"></div>
+
+    <main>
+        {{{body}}}
+    </main>
+    <footer></footer>
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+     {{/if}}
+</body>
+</html>
