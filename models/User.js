@@ -25,15 +25,19 @@ User.init(
             allowNull: false,
             unique: true,
             validate: {
-                isEmail: true,
-            },
+                isEmail: true
+            }
         },
         password: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                len: [8],
-            },
+                len: [8]
+            }
+        },
+        avatar_url: {
+            type: DataTypes.STRING,
+            allowNull: false
         }
     },
     {
@@ -43,7 +47,7 @@ User.init(
                 return newUserData;
             },
             beforeUpdate: async (updatedUserData) => {
-                updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
+                updatedUserData.password = await bcrypt.hash(updatedUserData, 10);
                 return updatedUserData;
             }
         },
@@ -51,7 +55,7 @@ User.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'user',
+        modelName: 'user'
     }
 );
 
