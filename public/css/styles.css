@@ -341,7 +341,7 @@ header nav .link-item:hover {
      background-color:  rgb(29, 161, 242);
      padding: 10px;
      margin-bottom: 20px;
-     width: 100%;
+     width: 300px;
  }
  .my-post-card a {
      text-decoration: none;

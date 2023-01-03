@@ -1,7 +1,7 @@
 [
     {
-        "title":"Game of Thrones Prequel",
-        "body": "What do you think of the House of the Dragon prequel in production to launch in 2022?",
+        "title":"House of the dragon",
+        "body": "Why would you let a war dragon fight such a small one! He was looking for war.",
         "user_id":1,
         "category_id":1,
         "id": 1,
@@ -10,8 +10,8 @@
 
     },
     {
-        "title":"Fast and the Furious",
-        "body": "What do you think will happen between Dom and his brother Jakob? Will Cipher win or loose? ",
+        "title":"Avatar 2",
+        "body": "Amazing! Even better than the first one. The details are amazing.",
         "user_id":2,
         "category_id":2,
         "id": 2,
@@ -19,8 +19,8 @@
         "dislikes": 1
     },
     {
-        "title":"Billboard",
-        "body": "Who do you want to win the Billboard Music Awards? ",
+        "title":"Favorite song for the winter?",
+        "body": "What is your favorite song coming up? ",
         "user_id":3,
         "category_id":3,
         "id": 3,
@@ -28,8 +28,8 @@
         "dislikes": 2
     },
     {
-        "title":"Spring Sports",
-        "body": "As the PGA Tour, NASCAR and MLB are in full swing, what is the game you are most looking forward to? ",
+        "title":"World Cup 2023",
+        "body": "Our team did so well! Cant belive they lost. ",
         "user_id":4,
         "category_id":4,
         "id": 4,
@@ -37,8 +37,8 @@
         "dislikes": 40
     },
     {
-        "title":"2021 Release Expectation",
-        "body": "What is your most anticipated book of 2021 to read?",
+        "title":"2023 Release Expectation",
+        "body": "What is your most anticipated book of 2023 to read?",
         "user_id":1,
         "category_id":5,
         "id": 5,
