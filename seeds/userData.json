@@ -1,25 +1,25 @@
 [
     {
-      "username":"jsmith27",
+      "username":"johnsmith",
       "email": "jsmith@hotmail.com",
       "password":"12348abc",
-      "avatar_url":"/images/heart.png"
+      "avatar_url":"Images/Bear.png"
     },
     {
-       "username":"twilliams0",
-       "email": "twilliams@gmail.com",
+       "username":"janedoe",
+       "email": "doedove@gmail.com",
        "password":"12345abc",
-       "avatar_url":"/images/sun.png"
+       "avatar_url":"Images/Leo.png"
     },
     {
-      "username":"kgrimone7",
-      "email": "kgrimone7@gmail.com",
+      "username":"harrypotter",
+      "email": "chamberofsecrets@gmail.com",
       "password":"12345abcd",
-      "avatar_url":"/images/butterfly.png"
+      "avatar_url":"Images/Pengu.png"
    },
    {
-    "username":"bthomas22",
-    "email": "bthomas@hotmail.com",
+    "username":"ellonmusk",
+    "email": "runtotheground@hotmail.com",
     "password":"12347abc",
     "avatar_url":"/images/aligator.png"
   }
