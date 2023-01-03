@@ -1,0 +1,39 @@
+[
+    {
+     
+     "body": "The trailers look like its going to be amazing!",
+     "user_id":2,
+     "post_id":1,
+     "likes": 26,
+     "dislikes": 10
+     
+    },
+    {
+        "body": "I think Jakob will turn on Cipher and side with Dom",
+        "user_id":1 ,
+        "post_id":2,
+        "likes": 8,
+        "dislikes": 14
+    },
+    {
+        "body": "I think Drake will win the top artist this year!",
+        "user_id":4 ,
+        "post_id":3,
+        "likes": 2,
+        "dislikes": 0
+    },
+    {
+        "body": "I'm looking forward to the Indians winning the world series this year!",
+        "user_id":3 ,
+        "post_id":4,
+        "likes": 24,
+        "dislikes": 7
+    },
+    {
+        "body": "I can't wait to read Ghost in the Wires!",
+        "user_id":4 ,
+        "post_id":5 ,
+        "likes": 15,
+        "dislikes": 0
+    }
+]

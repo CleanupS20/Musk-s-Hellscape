@@ -1,0 +1,26 @@
+[
+    {
+      "username":"jsmith27",
+      "email": "jsmith@hotmail.com",
+      "password":"12348abc",
+      "avatar_url":"/images/heart.png"
+    },
+    {
+       "username":"twilliams0",
+       "email": "twilliams@gmail.com",
+       "password":"12345abc",
+       "avatar_url":"/images/sun.png"
+    },
+    {
+      "username":"kgrimone7",
+      "email": "kgrimone7@gmail.com",
+      "password":"12345abcd",
+      "avatar_url":"/images/butterfly.png"
+   },
+   {
+    "username":"bthomas22",
+    "email": "bthomas@hotmail.com",
+    "password":"12347abc",
+    "avatar_url":"/images/aligator.png"
+  }
+]

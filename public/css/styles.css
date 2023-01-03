@@ -1,0 +1,399 @@
+ * {
+     box-sizing: border-box;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+ body
+ {
+     background-color: #efefef;
+     text-align: center;
+     text-shadow: 1,1,1 white;
+     text-shadow: 0px 0px 3px grey;
+     margin: 0;
+ }
+
+ header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(29, 161, 242);
+    box-shadow: 0px 0px 10px grey;
+}
+
+/* Header CSS Rules */
+header h1 {
+    text-shadow: 0px 1px 3px grey;
+}
+
+header h1 span {
+    font-size: 20px;
+}
+
+header nav {
+    padding: 10px;
+}
+
+header img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+#Logo {
+    height: 150px;
+    width: 150px;
+}
+
+header nav .link-item {
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    text-shadow: 0px 0px 3px grey;
+}
+
+header nav .link-item:hover {
+    color: grey;
+}
+
+/* creates space between nav bar */
+
+.space {
+    height: 50px;
+}
+
+ h1{
+     display: flex;
+     text-align: left;
+     width: 60%;
+ }
+ .nav{
+     display: flex;
+     text-align: left;
+     width: 40%;
+ }
+ .nav a{
+     font-weight: bold;
+     padding: 14px 20px;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .category-cont{
+     display:inline-flex;
+     flex-wrap: wrap;
+     animation-fill-mode:forwards;
+     animation-delay: 3s;
+     border-radius: 50px;
+ }
+ .tv-show{
+     flex-direction: row;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     animation-fill-mode:forwards;
+     animation-delay: 3s;
+     width: 20%;
+     background-color:  rgb(29, 161, 242);
+     border-radius: 25px;
+ }
+ .movies{
+     flex-direction: row;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         width: 20%;
+     background-color: rgb(29, 161, 242);
+     opacity: .75;
+     border-radius: 25px;
+ }
+ .music{
+     flex-direction: row;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     width: 20%;
+     background-color:  rgb(29, 161, 242);
+     border-radius: 25px;
+ }
+ .sports{
+     flex-direction: row;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     width: 20%;
+     background-color: rgb(29, 161, 242);
+     opacity: .75;
+     border-radius: 25px;
+ }
+ .books{
+     flex-direction: row;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     width: 20%;
+     background-color:  rgb(29, 161, 242);
+     border-radius: 25px;
+ }
+
+ .books a, .tv-show a, .movies a, .music a, .sports a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .likes-cont {
+     margin-top: 10px;
+ }
+
+ .likes-cont a {
+     margin-left: 5px;
+ }
+
+ .card {
+     border: 1px black solid;
+     border-radius: 10px;
+ }
+
+ .card :hover{
+     color: grey;
+ }
+ .card-header{
+     text-align: center;
+     color: black;
+ }
+ .card-body{
+     flex-direction: column;
+     background-color: white;
+     color:  black;
+     justify-content: center;
+ }
+
+ #signup .card-body {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: flex-start;
+     padding: 10px;
+     background-color: rgb(29, 161, 242)
+ }
+
+ .avatar-img-cont {
+     background-color: rgb(193, 236, 250);
+     border-radius: 5px;
+ }
+
+ .avatar-img-cont img:hover {
+    border: 1px black dotted;
+    border-radius: 5px;
+ }
+ .comment-card :hover{
+     color: grey;
+ }
+ #email{
+     float: center;
+     color: white;
+     box-shadow: white;
+     border: thick;
+ }
+ #password{
+     float: center;
+     color: black;
+     box-shadow: white;
+     border: thick;
+ }
+ #login-btn{
+     float: center;
+     background-color: white;
+     color:  rgb(29, 161, 242);
+     padding: 15px 32px;
+     text-align: center;
+     font-size: 14px;
+     cursor: pointer;
+     border-radius: 10px;
+     border: 1px black solid;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ #login-btn:hover{
+     background-color:white;
+       }
+ #login-btn:active{
+         background-color: rgb(29, 161, 242);
+           }
+.login-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(29, 161, 242);
+    margin: 0;
+}
+
+.login-card-header {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+.login-card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+ .category-header{
+     font-weight: bold;
+     font-size: xx-large;
+     font-style: italic;
+     text-decoration: underline;
+ }
+ .category-body{
+     flex: auto;
+     font-weight: bold;
+     padding: 14px 20px;
+     align-items: center;
+     font-size: x-large;
+ }
+ .category-body a{
+     padding: 14px 20px;
+     text-decoration: none;
+     color: black;
+     border-radius: 10px;
+     background-color: rgb(29, 161, 242)
+ }
+ .category-body a:hover {
+     background-color:  rgb(29, 161, 242);
+ }
+ .post-title{
+     font-size: xx-large;
+     font-style: italic;
+     text-shadow:  rgb(29, 161, 242);
+ }
+ .post-card{
+     font-size: xx-large;
+     font-style: italic;
+     text-shadow:  rgb(29, 161, 242);
+     font-size: 18px;
+     padding: 10px;
+     background-color: rgb(29, 161, 242);
+     margin-bottom: 10px
+ }
+ .post-body{
+     font-size: x-large;
+     text-shadow:  rgb(29, 161, 242);
+ }
+ .post-category{
+     font-weight: bolder;
+ }
+ .signup-body{
+     font-size: xx-large;
+     font-weight: bold;
+ }
+ .signup-header{
+     font-size: xx-large;
+     font-weight: bold;
+ }
+ .post-cont{
+     font-weight: bold;
+     font-size: xx-large;
+     font-style: italic;
+ }
+ .comment-cont {
+     margin-top: 50px;
+ }
+ .comment-card {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: flex-start;
+     padding: 10px;
+     background-color: lightgrey;
+     border: 1px black solid;
+     border-radius: 10px;
+     margin-top: 20px;
+ }
+ .comment-card label {
+     margin-bottom: 10px;
+ }
+ .comment-card input {
+     margin-bottom: 10px;
+ }
+ .my-post-cont {
+     margin-top: 20px;
+ }
+ .my-post-card {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px black solid;
+     border-radius: 10px;
+     background-color:  rgb(29, 161, 242);
+     padding: 10px;
+     margin-bottom: 20px;
+     width: 100%;
+ }
+ .my-post-card a {
+     text-decoration: none;
+     color: black;
+ }
+ .my-post-card:hover {
+    background-color: lightgray;
+}
+ .new-post {
+     border: 1px black solid;
+     border-radius: 10px;
+     background-color: lightgray;
+     text-decoration: none;
+     color:black;
+     padding: 10px;
+ }
+.new-post:hover {
+    background-color:  rgb(29, 161, 242);
+}
+ @media only screen and (max-width: 850px) {
+     header {
+         flex-direction: column;
+         justify-content: center;
+     }
+     header h1 {
+         margin-left: 0;
+     }
+     header nav {
+         margin-right: 0;
+     }
+     .space {
+         height: 100px;
+     }
+     .card {
+         width: 650px;
+     }
+ }
+ @media only screen and (max-width: 700px) {
+     .card {
+         width: 550px;
+     }
+ }
+ @media only screen and (max-width: 600x) {
+     .card {
+         width: 450px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+     .dashboard-card {
+         flex-direction: column;
+     }
+     .card {
+         width: 350px;
+     }
+ }
