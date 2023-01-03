@@ -1,0 +1,48 @@
+[
+    {
+        "title":"Game of Thrones Prequel",
+        "body": "What do you think of the House of the Dragon prequel in production to launch in 2022?",
+        "user_id":1,
+        "category_id":1,
+        "id": 1,
+        "likes": 16,
+        "dislikes": 4
+
+    },
+    {
+        "title":"Fast and the Furious",
+        "body": "What do you think will happen between Dom and his brother Jakob? Will Cipher win or loose? ",
+        "user_id":2,
+        "category_id":2,
+        "id": 2,
+        "likes": 12,
+        "dislikes": 1
+    },
+    {
+        "title":"Billboard",
+        "body": "Who do you want to win the Billboard Music Awards? ",
+        "user_id":3,
+        "category_id":3,
+        "id": 3,
+        "likes": 25,
+        "dislikes": 2
+    },
+    {
+        "title":"Spring Sports",
+        "body": "As the PGA Tour, NASCAR and MLB are in full swing, what is the game you are most looking forward to? ",
+        "user_id":4,
+        "category_id":4,
+        "id": 4,
+        "likes": 100,
+        "dislikes": 40
+    },
+    {
+        "title":"2021 Release Expectation",
+        "body": "What is your most anticipated book of 2021 to read?",
+        "user_id":1,
+        "category_id":5,
+        "id": 5,
+        "likes": 15,
+        "dislikes": 10
+    }
+]    
